@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield - Firewall Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CyberShield - Firewall Master</h1>
+    
+    <div id="game-container">
+        <div id="log-container">
+            <h2>Network Logs</h2>
+            <ul id="log-list"></ul>
+        </div>
+        <div id="firewall-controls">
+            <h2>Firewall Actions</h2>
+            <button onclick="blockIP()">Block Selected IP</button>
+            <button onclick="allowIP()">Allow Selected IP</button>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
